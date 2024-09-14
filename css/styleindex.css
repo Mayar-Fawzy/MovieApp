@@ -1,0 +1,24 @@
+body{
+    background-image: url(../img/StockSnap_LZDG3B8SXI.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ; height: 100vh;
+    display: flex; align-items: center; justify-content: center;
+    backdrop-filter: blur(4px);
+}
+.login{
+    color: aliceblue;
+    box-shadow: 20px;
+   padding: 40px; margin: 10px;
+   background-color:rgba(12, 18, 56,.8);  border-radius: 40px;
+   border: 2px solid  rgba(12, 18, 56,.9); 
+}
+#buttonn{
+    border-radius: 50px;
+}
+.Movie{
+    text-align: center;
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}

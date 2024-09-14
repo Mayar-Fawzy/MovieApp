@@ -1,0 +1,98 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+
+    <link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/styleregister.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Geologica:wght@100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form class="register">
+      <h1 class="Movie m-0 p-0">
+        <strong>Movie🍿<br /> </strong>REGISTER
+      </h1>
+
+      <div class="row">
+        <div class="col-md-6 p-2 ">
+          <label for="nameregister">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="name"
+            id="nameregister"
+          />
+        </div>
+        <div class="col-md-6 p-2">
+          <label for="phoneregister">Phone</label>
+          <input
+            type="tel"
+            class="form-control"
+            placeholder="phone"
+            id="phoneregister"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 p-2">
+          <label for="inputemailregister">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            placeholder="email"
+            id="inputemailregister"
+          />
+        </div>
+        <div class="col-md-6 p-2">
+          <label for="inputpasswordregister">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            placeholder="password"
+            id="inputpasswordregister"
+          />
+          <label style="font-size: 12px; color: bisque">
+            Please enter atleast 8 charatcers
+          </label>
+        </div>
+      </div>
+      <label for="inputrepasswordregister" class="m-0 p-0">repassword</label>
+      <input
+        type="password"
+        class="form-control mb-3"
+        placeholder="repassword"
+        id="inputrepasswordregister"
+      />
+      <div
+        class="footer d-flex align-items-center justify-content-center flex-column"
+      >
+        <a
+          class="btn btn-outline-warning form-control w-50 mt-3"
+          id="buttonnregister"
+          type="submit"
+        >
+          Register
+        </a>
+        <p>Already have acount? <a href="index.html">Sign in</a></p>
+      </div>
+    </form>
+    <script src="./node_modules/axios/dist/axios.js"></script>
+    <script src="bootstrap-5.3.1-dist/js/bootstrap.bundle.js"></script>
+
+    <script src="regester.js"></script>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Person</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.1-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+     
+        <nav
+     class="navbar navbar-expand-lg my-0 pt-2 d-flex align-items-center justify-content-between text-center navcontent"
+     >
+     <div class="container-fluid">
+      <a href="../index.html" style="color: white ; margin-left: 20px; text-decoration-line: none;">Movie🍿</a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+     </div>
+     
+     <div class="collapse navbar-collapse  " id="navbarNavDropdown">
+       <ul
+         class="navbar-nav d-flex align-items-center justify-content-between"
+         style="list-style-type: none"
+       >
+         <li class="navbar-item"><a href="../Home.html" style="color: whitesmoke; text-decoration: none;">Home</a></li>
+       
+         <li class="nav-item"><a href="../Movies/MovesPages.html" style="color: whitesmoke; text-decoration: none;">Moves</a></li>  <li class="nav-item">
+           <a href="../person/personpages.html" style="color: whitesmoke; text-decoration: none;">Person</a></li>
+         <li class="nav-item"><a href="../TV/TVPages.html" style="color: whitesmoke; text-decoration: none;">TV</a></li>
+       </ul>
+     </div>
+   
+     </nav>
+    
+      <div class="">
+        <div class="header d-flex align-items-center justify-content-center">
+          
+          <h1 style="color: aliceblue; border-bottom: brown solid 2px; margin-bottom: 25px;"><strong>Persons</strong></h1>
+          
+        </div>
+        <div class="above"> 
+        <div class="row" id="personpage"></div>
+        <div class="Footer d-flex align-items-center justify-content-center pb-4 pt-0">
+          
+       <button onclick="decrease()" type="button" class=" btn btn-outline-primary" style="margin-right: 25px;">Previous</button>
+      
+      <button onclick="increase(1000)" type="button" class=" btn btn-outline-primary">Next</button>
+        </div>
+
+      </div>
+      
+    </div>
+    <script src="personPage.js"></script>
+    <script src="detailsperson.js"></script>
+    <script src="../bootstrap-5.3.1-dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

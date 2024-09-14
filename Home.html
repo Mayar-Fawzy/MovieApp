@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Films</title>
+     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+       <nav
+    class="navbar navbar-expand-lg my-0 pt-2 d-flex align-items-center justify-content-between text-center navcontent"
+    >
+    <div class="container-fluid">
+      <a href="index.html" style="color: white ; margin-left: 20px; text-decoration-line: none;">Movie🍿</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    
+    <div class="collapse navbar-collapse  " id="navbarNavDropdown">
+      <ul
+        class="navbar-nav d-flex align-items-center justify-content-between"
+        style="list-style-type: none"
+      >
+        <li class="navbar-item"><a href="Home.html" style="color: whitesmoke; text-decoration: none;">Home</a></li>
+      
+        <li class="nav-item"><a href="./Movies/MovesPages.html" style="color: whitesmoke; text-decoration: none;">Moves</a></li>  <li class="nav-item"><a href="./person/personpages.html" style="color: whitesmoke; text-decoration: none;">Person</a></li>
+        <li class="nav-item"><a href="./TV/TVPages.html" style="color: whitesmoke; text-decoration: none;">TV</a></li>
+      </ul>
+    </div>
+  
+    </nav>
+    </div>
+   
+    <div class="container">
+     
+      <div class="">
+        <div class="card-header bbb">
+          <div class="inputSearch">
+            <input
+              type="search"
+              onkeyup="Search(this.value)"
+              placeholder=" Best of 2022"
+              id="inputserarch"
+            />
+            <button
+              type="button"
+              class="btn btnPos form-control text-center"
+              id="NeW"
+            >
+              New
+            </button>
+          </div>
+        </div> <div class="row" id="first"></div>
+       
+      </div>
+      
+      <section class="s" id="Section1"></section>
+      <div class="headerr m-0 pt-5 text-center" style="color: aliceblue;">
+        <div class="bd00  "></div>
+        <h1><strong>TV</strong></h1>
+          <div class="bd00 "></div>
+          
+      <section class="s row" id="Section4">
+           <div class="col-md-6" >
+        <div class="bd1 my-3"></div>
+         <h2 class="trending">Trending Mocies
+        to watch Right now</h2>
+    <h3 class="watch">Trending Mocies to watch Right now</h3>
+     <div class="bd2  my-3"></div>
+    </div></section>
+     
+     <div class="headerr m-0 pt-5 text-center" style="color: aliceblue;">
+      <div class="bd00  "></div>
+      <h1><strong>Person</strong></h1>
+        <div class="bd00 "></div>
+    
+  
+   <section class="s mb-2 row" id="Section6">
+    <div class="col-md-6">
+     
+        <div class="bd1 my-3"></div>
+         <h2 class="trending">Trending Persons
+        to watch Right now</h2>
+    <h3 class="watch">Trending Mocies to watch Right now</h3>
+     <div class="bd2  my-3"></div>
+  
+    </div>
+   </section>
+
+    
+  </div> <section class="footer container-fluid p-0 m-0">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Info</h4>
+          <ul class="links"  style="list-style-type:none;">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Compressions</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Collection</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4>Explore</h4>
+          <ul class="links" style="list-style-type:none;">
+            
+            <li><a href="#">Popular </a></li>
+            <li><a href="#">Art</a></li>
+            <li><a href="#">Designs</a></li>
+            <li><a href="#">New </a></li>
+            <li><a href="#">Else </a></li>
+          </ul>
+        </div>
+       
+        <div class="col-md-4 pt-4 formfooter">
+          <h4>Enjoy Your Holiday 🍿</h4>
+         
+          <form action="#" >
+            <input type="text" placeholder="Your email"class="decoreinput" required>
+            <button type="submit" class="decoreBtn btn btn-outline-light "><strong>SUBSCRIBE</strong></button>
+        </form>
+          <div class="icons fs-4 p-2 m-0">
+          
+           <a href="https://www.facebook.com/?locale=ar_AR" target="_blank"> <i class="fa-brands fa-facebook-f" target="_blank"></i></a>
+           <a href="https://x.com/?lang=ar" target="_blank">   <i class="fa-brands fa-twitter"></i></a>
+           <a href="https://www.linkedin.com/login" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+           <a href="https://www.github.com/login"target="_blank" >  <i class="fa-brands fa-github"></i></a>
+          </div>  
+        </div>
+      </div>
+    </section>
+    
+    <script src="bootstrap-5.3.1-dist/js/bootstrap.bundle.js"></script>
+    <script src="Home.js"></script>
+    
+    <script src="./TV/tvDetails.js"></script>
+    <script src="./TV/tv.js"></script>
+    <script src="./Movies/details.js"></script>
+    <script src="./person/person.js"></script>
+    <script src="./person/detailsperson.js"></script>
+  </body>
+</html>

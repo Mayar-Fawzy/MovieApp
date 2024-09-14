@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+
+    <link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/styleindex.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form class="login">
+      <h1 class="Movie m-0 p-0"><strong>Movie🍿</strong></h1>
+      <h3 class="p-0">
+        <strong style="color: white"><br />LogIn</strong>
+      </h3>
+      <input
+        type="email"
+        class="form-control  p-2 mb-2"
+        placeholder="Email"
+        id="inputemail"
+      />
+      <input
+        type="password"
+        class="form-control p-2"
+        placeholder="password"
+        id="inputpassword"
+      />
+      <p style="color: whitesmoke; font-size: 12px" class="mb-2">
+        Please enter atleast 8 charatcers
+      </p>
+      <a
+        class="form-control btn btn-outline-warning mt-4"
+        id="buttonn"
+        type="submit"
+      >
+        Submit
+      </a>
+      <p>Don't have acount? <a href="register.html">Register</a></p>
+    </form>
+
+    <script src="./node_modules/axios/dist/axios.js"></script>
+    <script src="bootstrap-5.3.1-dist/js/bootstrap.bundle.js"></script>
+    <script src="login.js"></script>
+
+    <script src="regester.js"></script>
+  </body>
+</html>

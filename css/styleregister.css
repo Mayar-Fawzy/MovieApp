@@ -1,0 +1,36 @@
+body{
+    background-image: url(../img/StockSnap_LZDG3B8SXI.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ; height: 100vh;
+    display: flex; align-items: center; justify-content: center;
+    backdrop-filter: blur(4px);
+  
+}
+.register{
+    color: aliceblue;
+    box-shadow: 20px;
+   padding: 20px; margin: 5px;
+   background-color:rgba(12, 18, 56,.8); border-radius: 40px;
+   border: 2px solid  rgba(12, 18, 56,.9); 
+}
+.Movie{
+    text-align: center;
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+#buttonnregister{
+    border-radius: 50px;
+}
+
+h3{
+    font-family: "Geologica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "CRSV" 0,
+      "SHRP" 0;
+}

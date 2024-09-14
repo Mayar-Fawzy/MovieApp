@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(12, 18, 56); scroll-behavior: smooth; 
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+.ParentType{
+    display: flex;
+    flex-wrap: nowrap;
+    font-weight: 700px !important;
+    gap: 20px;
+    
+}
+.row{
+   height: 80vh;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-left: 50px;
+    
+}
+#profileDetails{
+    overflow: hidden;
+}
+.above{
+    background-color:rgba(12, 18, 56,.7);
+     background-position: center;
+     background-size:cover ;
+    border-radius: 3%;
+}
+.tagline{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200; font-size: 33px;
+    font-style: normal;
+    text-align: center;
+    height: 10vh;
+}
+h3{
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400px;
+    font-style: normal;
+    border: 3px solid white;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 8px; font-size:20px ; color: beige;
+}
+p{
+    font-weight: 300;
+    font-family: sans-serif;
+}
+h4{
+    font-size:20px ; color: white;
+}
+span{
+    color: red;
+    font: 20px sans-serif;
+}
+button{
+    margin: 10px; padding: 10px; font-weight: 100;
+}
+.mylink{
+    text-decoration: none;
+    text-decoration-color: aliceblue;
+}
+@media screen and (max-width: 990px )  {
+    .row {
+     flex-direction: column;
+    }
+    .ParentType{
+        flex-direction: column; text-align: center;
+    }
+    
+   .all {
+    height: 1200px; width: 518px;
+   }
+   .above{
+    height: 1200px; 
+   }
+  }
