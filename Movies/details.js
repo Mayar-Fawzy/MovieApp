@@ -20,10 +20,10 @@ function displayMovieDetails(movie) {
   <div class="all w-100"  style="background-image: url(https://image.tmdb.org/t/p/original${movie.backdrop_path})!important ; 
      background-size:cover ; border-radius: 3%; position: relative;">
   <div class="above"> 
-   <div class="row " >
+   <div class="row p-3" >
 
         
-        <div class="col-md-5 my-5 secondSection">
+        <div class="col-md-5 secondSection">
     <img class="w-75"  style=" border-radius: 14%;" src="https://image.tmdb.org/t/p/original${movie.poster_path}">
     </div>
  <div class="col-md-7 mb-2">
