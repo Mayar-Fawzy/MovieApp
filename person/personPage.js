@@ -28,19 +28,18 @@ async function fetchperson() {
 }
 function PersonsCard(people) {
   let Personss = ``;
-  for (let i =20; i < people.length; i++) {
-    Personss += `
+ for (let i = 0; i < people.length; i++) {
+    if(people[i].profile_path==null){
+      i++
+    }else{Personss += `
         
          <div class="col-md-3 secondSection" >
          <div class="position-relative member pb-2 pt-2" id="maybeHover" onclick="goToPerson(${
            people[i].id
          })" >
          
-        <img src="${
-          people[i].profile_path
-            ? `https://image.tmdb.org/t/p/original${people[i].profile_path}`
-            : `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLfVjB2na1ZAD9grwxlYq81OuK8kZD2ugOFQmVrz7jxzdhd-3dpu9rLjbpecyg212SG3M&usqp=CAU`
-        }"
+        <img src="https://image.tmdb.org/t/p/original${people[i].profile_path}
+        "
             
             class="img-fluid w-100 mb-4  position-relative" alt="">
 
@@ -54,7 +53,8 @@ function PersonsCard(people) {
         </div>
        </div>
        
-       `;
+       `;}
+    
   }
   document.getElementById("personpage").innerHTML = Personss;
 }
