@@ -18,14 +18,11 @@ document.getElementById("buttonn").addEventListener("click", () => {
     .catch(error => {
         console.log(error);
         alert(error.response.data.message);clear();
+         Email.value="";
+        password.value="";
     });
 });
-function clear(){ 
-    Email.value=" ";
-    password.value=" ";
-  
 
-}
 function ValidateEmail(){
     let regexemail= /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     if(regexemail.test(Email.value)==true){
