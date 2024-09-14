@@ -7,6 +7,7 @@ body{
     backdrop-filter: blur(4px);
 }
 .login{
+    width:400px;
     color: aliceblue;
     box-shadow: 20px;
    padding: 40px; margin: 10px;
