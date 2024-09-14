@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", async function () {
      <div class="row p-3" >
   
           
-          <div class="col-md-5 my-5">
+          <div class="col-md-5">
       <img class="w-75"  style=" border-radius: 14%;" src="https://image.tmdb.org/t/p/original${movie.poster_path}">
       </div>
    <div class="col-md-7 secondSection mb-2">
