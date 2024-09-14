@@ -28,7 +28,7 @@ async function fetchperson() {
 }
 function PersonsCard(people) {
   let Personss = ``;
-  for (let i = 0; i < people.length; i++) {
+  for (let i = 14; i < people.length; i++) {
     Personss += `
         
          <div class="col-md-3 secondSection" >
