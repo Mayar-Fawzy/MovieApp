@@ -17,7 +17,7 @@ document.getElementById("buttonn").addEventListener("click", () => {
     })
     .catch(error => {
         console.log(error);
-        alert(error.response.data.message);clear();
+        alert(error.response.data.message);
          Email.value="";
         password.value="";
     });
